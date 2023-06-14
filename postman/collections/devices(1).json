@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "c07c9f2a-3942-4963-83da-3401d989b4f6",
+		"name": "devices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "27975250-c07c9f2a-3942-4963-83da-3401d989b4f6"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "7e01d414-6042-49e4-abe7-a62be7510b43",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/devices/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"devices",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ac178dbc-1016-4646-adfc-0cdf3b3d6d5f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/devices/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"devices",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "d908b8c2-29ec-493b-b105-c80d3e1689ba",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/devices/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"devices",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "e7531d91-5482-473a-961d-0bad3cbf8ffd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/devices/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"devices",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

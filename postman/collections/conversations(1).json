@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "cba35554-259c-4a0a-ab3a-342c80571b8e",
+		"name": "conversations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "27975250-cba35554-259c-4a0a-ab3a-342c80571b8e"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "6664d13f-a327-4f1a-90c0-49ae2fa19bde",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/conversations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"conversations",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "a0f3b418-e916-4b7d-a1de-b1fa7758eb2c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/conversations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"conversations",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "6125330c-1ae9-438b-9122-250081a55385",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/conversations/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"conversations",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ab62935e-f623-4351-ab7e-04c64739ebfb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/conversations/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"conversations",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "42588cae-5d6a-4520-a689-6a39f684bc24",
+		"name": "teams",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "27975250-42588cae-5d6a-4520-a689-6a39f684bc24"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/teams/",
+			"id": "343a0c85-a1b4-4c53-9818-578b3792f73f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/teams/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/teams/",
+			"id": "78ade2b3-8e8a-4d18-a23d-14da130a67d4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/teams/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "798bd2cd-915f-450d-852a-6c5d743c9351",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/teams/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "76377c90-22ad-4d75-9655-a29c623a991c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/teams/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"teams",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -9,13 +9,21 @@ id = c6f473c9-b540-46da-b9b1-f44b594dc1b1
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"27975250-60509084-8849-4c90-86fd-39268c48bbeb","path":"accounts(1).json","metaData":{}}
 files[] = {"id":"27975250-72153b7c-3bfa-4700-abf4-fbff7cc11584","path":"accounts.json","metaData":{}}
+files[] = {"id":"27975250-cba35554-259c-4a0a-ab3a-342c80571b8e","path":"conversations(1).json","metaData":{}}
 files[] = {"id":"27975250-1c9760c0-1d50-4140-abfb-56d4f79ef04c","path":"conversations.json","metaData":{}}
+files[] = {"id":"27975250-89544633-9e4a-4d2d-8a1d-b80c9715e759","path":"customers(1).json","metaData":{}}
 files[] = {"id":"27975250-77701e39-851e-4a91-b4f1-9fa8460ed3b8","path":"customers.json","metaData":{}}
+files[] = {"id":"27975250-c07c9f2a-3942-4963-83da-3401d989b4f6","path":"devices(1).json","metaData":{}}
 files[] = {"id":"27975250-2e7be726-1e43-4449-8488-ee72a9ac89f3","path":"devices.json","metaData":{}}
+files[] = {"id":"27975250-b61e4f5a-b630-4d08-a199-d4050e98165d","path":"message-chains(1).json","metaData":{}}
 files[] = {"id":"27975250-bb385a54-20ae-4b96-afd3-5cab270e6b61","path":"message-chains.json","metaData":{}}
+files[] = {"id":"27975250-1bcaa0c3-00d4-4272-99c9-93eaebba4bcb","path":"messages(1).json","metaData":{}}
 files[] = {"id":"27975250-e40db3e1-1477-4b76-90a8-2195e2c377fd","path":"messages.json","metaData":{}}
+files[] = {"id":"27975250-52a0c9bd-26c2-4c55-8d14-80d9a35f483c","path":"roles(1).json","metaData":{}}
 files[] = {"id":"27975250-98ebd204-d5be-4d88-971e-2f2e7fef386f","path":"roles.json","metaData":{}}
+files[] = {"id":"27975250-42588cae-5d6a-4520-a689-6a39f684bc24","path":"teams(1).json","metaData":{}}
 files[] = {"id":"27975250-505bd9a0-f26a-486c-9ef8-da2627221479","path":"teams.json","metaData":{}}
 
 [config.relations.collections.metaData]
